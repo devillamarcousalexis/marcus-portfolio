@@ -30,9 +30,9 @@
         </div>
     </div>
  
-    <div class="section header-mini h-screen flex items-center align-center text-justify">
-
-        <div class="w-1/2 grid h-screen place-items-center font-montserrat tracking-tighter">
+    <div class="section header-mini h-screen flex items-center align-center text-justify ">
+        <h1 class="-mt-10 ml-5 text-5xl text-center font-archivo font-thin leading-none tracking-tighter text-white drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">ACADEMIC BACKGROUND</h1>
+        <div class="w-1/2 -ml-10 grid h-screen place-items-center font-montserrat tracking-tighter">
             <div
                 class="px-5 py-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#" class="flex items-center justify-center">
@@ -205,98 +205,103 @@
 
         <div
             class="section gap-20 px-40 h-screen flex items-center align-center text-justify font-montserrat w-full h-full">
-            <div class="w-screen grid grid-rows-4 grid-flow-col gap-4">
+            <div class="w-screen">
+                <div class="h-1/2">
+                <h1 class="mb-20 text-5xl text-center font-archivo  font-thin leading-none tracking-tighter text-black-900">CORE <span class="text-[#1F4172] dark:text-[#1F4172]">SKILLS</span></h1>
+            </div>
+            <div class="grid grid-rows-4 grid-flow-col gap-4 text-lg">
 
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 hover:text-white-900 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/api.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">REST API</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/bootstrap.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">Bootstrap</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/communicationskills.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">Communication Skills</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/css.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">Cascading Style Sheet</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/github.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">GitHub</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/html.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">HTML</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/js.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">JavaScript</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/laravel.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">Laravel</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/mysql.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">MySQL</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/nodejs.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">Node.js</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/npm.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">NPM</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/php.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">PHP</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/tailwind.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">Tailwind</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/typingproficiency.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">Typing Proficiency (90 WPM)</p>
                 </a>
                 <a href="#"
-                    class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    class="hover:bg-blue-200 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow box-shadow-custom md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="icon rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
                         src="images/icon/vuejs.png" alt="">
                     <p class="px-5 font-normal text-gray-700 dark:text-gray-400">VueJS</p>
                 </a>
+            </div>
             </div>
         </div>
         <!-- Scroll buttons -->
@@ -350,6 +355,11 @@ export default {
     width: 20%;
     margin-left: 10px;
 }
+
+.box-shadow-custom:hover {
+    box-shadow: rgb(31, 65, 114, 0.2) 0px 0px 0px 1px inset;
+}
+
 
 .scroll-buttons {
     position: fixed;
